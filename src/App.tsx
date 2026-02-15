@@ -6,6 +6,7 @@ import DesignWork from './components/DesignWork';
 import Journalism from './components/Journalism';
 import Contact from './components/Contact';
 import Expertise from './components/Expertise';
+import SoftwareSection from "./components/SoftwareSection"
 
 type ActiveSection = null | 'photography' | 'video' | 'design';
 
@@ -49,6 +50,7 @@ function App() {
         <>
           <Hero onNavigate={setActiveSection} onContactClick={handleScrollToContact} />
           <Expertise />
+          <SoftwareSection />
           <Journalism />
           <div ref={contactRef}>
             <Contact />

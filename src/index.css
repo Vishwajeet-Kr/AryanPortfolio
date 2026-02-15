@@ -3,9 +3,6 @@
 :root {
   --bg-primary: #0a1f44;
   --bg-secondary: #123c69;
-  /* --bg-primary: #111827;
-  --bg-secondary: #1f2937; */
-
   --accent-color: #00f5ff;
 }
 @tailwind base;
