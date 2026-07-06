@@ -40,7 +40,7 @@ export default function Hero({ onNavigate, onContactClick }: HeroProps) {
             isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
           }`}
         >
-          <div className="relative inline-block mb-12 mt-12">
+          {/* <div className="relative inline-block mb-12 mt-12">
             <div className="relative glass p-2 rounded-2xl border border-cyber-cyan/20 shadow-2xl">
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-xl overflow-hidden relative group">
                 <img
@@ -50,7 +50,7 @@ export default function Hero({ onNavigate, onContactClick }: HeroProps) {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div
             className={`space-y-4 transition-all delay-500 duration-1000 ${
